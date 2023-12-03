@@ -59,11 +59,11 @@ app.get('/todos', async (request, response) => {
     else response.status(404).end()
   })
 
-app listen port 3000
-app.listen(port, () => {
-  console.log('Example app listening on port 3000')
-})
-// const PORT = process.env.PORT || 3001
-// app.listen(PORT, () => {
-//   console.log(`Server running on port ${PORT}`)
+// app listen port 3000
+// app.listen(port, () => {
+//   console.log('Example app listening on port 3000')
 // })
+const PORT = process.env.PORT || 3000
+app.listen(PORT, () => {
+  console.log(`Server running on port ${PORT}`)
+})
