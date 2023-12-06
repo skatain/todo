@@ -67,5 +67,5 @@ app.get('/todos', async (request, response) => {
 // const PORT = process.env.PORT || 3001
 // app.listen(PORT, () => {
 //   console.log(`Server running on port ${PORT}`)
-  const server = app.listen(port, () => console.log(`Example app listening on port ${port}!`));
+  const server = app.listen(port, () => { console.log(`Example app listening on port ${port}!`));
 })
